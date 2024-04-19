@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+ font-family: 'Cinzel', sans-serif;
+ font-size: 64px;
+}
+
+span{
+ color: #DB2777;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: #2C2E2F;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container { 
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
+}
+
+body {
+  font-family: 'Inter', sans-serif; 
+  text-align: center;
+
+  background-image: url(https://i.ibb.co/G5RLpgx/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-decoration: none;
+  margin-right: 1.6rem;
+  color: black;
+  margin-top: 10px;
+}
+
+button {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  height: 56px;
+  width: 202px;
+  background-color: #DB2777;
+  color: white;
+  border-radius: 80px;
+  border: none;
+}
+
+.link {
+  display: flex;
+  text-align: center;
+  margin-top: 72px;
+  gap: 32px;
+}
